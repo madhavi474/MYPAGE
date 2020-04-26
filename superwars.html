@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>superwars</title>
+    <style>
+#container{
+    display:grid;
+    grid-template-columns:2fr 0.5fr 1fr 0.5fr 2fr;
+    grid-auto-rows: minmax(210px,auto);
+    grid-gap:10px;
+  
+ 
+}
+#container>div{
+    border:1px solid grey;
+    border-radius:10px;
+}
+img,p{margin-bottom:-15px;
+}
+.item1{
+    text-align:center;
+justify-self:end;
+}
+.item2{
+    text-align:center;
+    justify-self:start;
+}
+.item3{
+    text-align:center;
+    border: none !important;
+    justify-self:center;
+}
+.item4{
+    text-align:center;justify-self:start;
+}
+.item5{
+    text-align:center;justify-self:start;
+}
+h1{
+    font-size:30px;
+    font-weight:200;
+}
+ </style>
+</head>
+<body>
+    <div id="container">
+    <div class="item1">
+
+            <img src="\project-11-superwars-css\images\super-1.png">
+        <p>Spiderman</p>
+        <h1>12</h1>
+            
+
+    </div>
+    <div class="item2">
+        <img src="project-11-superwars-css\images\super-3.png">
+        <p>Wonder</p>
+        <p>Women</p>
+        <h1>30</h1>
+    </div>
+    <div class="item3"><h1>5 - 0</h1></div>
+    <div class="item4">
+        <img src="project-11-superwars-css\images\super-2.png">
+        <p>Captian</p>
+        <p>America</p>
+        <h1>50</h1>
+    </div>
+    <div class="item5">
+        <img src="project-11-superwars-css\images\super-4.png">
+        <p>Gem Woman</p>
+        <h1>12</h1>
+    </div>
+    </div>
+</body>
+</html>
